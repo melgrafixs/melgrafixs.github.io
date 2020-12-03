@@ -121,6 +121,17 @@ main .bottom p {
     margin-left: auto;
     margin-right: auto;
 }
+.PrimaryNav ul li a {
+    text-decoration: none;
+    color: hsla(0,0%,20%,1.00);
+    font-size: 12px;
+    background-color: white;
+    height: 36px;
+    float: left;
+    width: 100%;
+    padding-top: 8px;
+	font-family: montserrat;
+}
 .PrimaryNav ul {
     width: 100%;
     height: 36px;
@@ -130,16 +141,10 @@ main .bottom p {
     float: left;
     width: 25%;
     text-align: center;
-    height: 20px;
-}
-.PrimaryNav ul li a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    color: #666666;
-    font-size: 13px;
-    float: left;
     height: 36px;
-    width: 100%;
+}
+		.PrimaryNav .CurrentTop {
+background-color: #BCE5FA;
 }
 	.Wrapper main .SectionNav {
 	position: sticky;
@@ -406,7 +411,7 @@ main .bottom p {
   <nav class="PrimaryNav">
     <ul>
       <li><a href="project03home.html">Home</a></li>
-      <li><a href="project02story1.html">Top Stories</a></li>
+      <li><a href="project02story1.html" class="CurrentTop">Top Stories</a></li>
       <li><a href="infographic01.html">Infographics</a></li>
       <li><a href="editorsletter.html">About</a></li>
     </ul>
