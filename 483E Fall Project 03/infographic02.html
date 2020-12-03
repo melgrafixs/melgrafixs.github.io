@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Infographic 02</title>
-<link rel="shortcut icon" href="../images/01faviconAsset 22@4x.png" type="image/png">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<title> Infographic 02</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../images/01faviconAsset 22@4x.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <style>
-	.Wrapper {
+@charset "UTF-8";
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+    list-style-type: none;
+}
+.SectionNav {
+    color: hsla(0,0%,40%,1.00);
+    position: sticky;
+    top: 0;
+}
+body {
+    background-color: white;
+}
+.Wrapper {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -16,120 +40,54 @@
     margin-top: 0px;
     padding-top: 0px;
 }
-.Wrapper header h1 {
+.Article01 header {
+    background-color: white;
+    height: 800px;
+    background-image: url(../images/fire_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+p {
+    color: hsla(0,0%,20%,1.00);
+    font-family: montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    max-width: 30em;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Montserrat", sans-serif;
+}
+h3, h4 {
     text-align: center;
-    font-size: 30px;
 }
-.Wrapper main h3 {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 40px;
-    padding-bottom: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 50%;
-    color: #333333
-}
-.Wrapper main h4 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 50%;
-    color: #1A51AE;
-}
-main .Story h5 {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #0F224B;
-}
-main .Story p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-    color: #666666;
-}
-main .Story ol {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    margin-left: 50px;
-    margin-right: 75px;
-}
-.Wrapper main .author {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 14px;
-    color: #333333;
-}
-.Wrapper main .time {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    color: #333333;
-    font-size: 12px;
-}
-.Wrapper main .quote {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-    margin-top: 30px;
-    padding: 0px 100px;
+h4 {
     font-size: 18px;
-    width: 50%;
-    color: #40852B;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
-main .bottom p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 11px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: #666666;
-    line-height: 16px;
+h3 {
+    font-size: 36px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsla(0,0%,0%,1.00);
+    font-family: montserrat;
 }
-.Wrapper header {
+.Story {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
-* {
-    margin: 0px;
-    padding: 0px;
-    background-origin: border-box;
+.PrimaryNav ul li a {
+    text-decoration: none;
+    color: hsla(0,0%,20%,1.00);
+    font-size: 12px;
+    background-color: white;
+    height: 36px;
+    float: left;
+    width: 100%;
+    padding-top: 8px;
 }
-.Wrapper header .masthead {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .PrimaryNav ul {
     width: 100%;
     height: 36px;
@@ -141,88 +99,158 @@ main .bottom p {
     text-align: center;
     height: 36px;
 }
-.PrimaryNav ul li a {
-    text-decoration: none;
-    color: hsla(0,0%,20%,1.00);
-    font-size: 12px;
-    background-color: white;
-    height: 36px;
+.ArticleTitle {
+    font-family: montserrat;
+    font-weight: 100;
+    font-size: 46px;
+    color: blue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.AuthorInfo {
+    text-align: center;
+    border-bottom: 1px solid hsla(0,0%,60%,1.00);
+    padding-bottom: 12px;
+}
+.author {
+    display: block;
+    height: 24px;
+    color: hsla(0,0%,60%,1.00);
+    font-style: italic;
+    font-size: 18px;
+}
+.Story h4 {
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    font-family: montserrat;
+}
+.MyIllustration {
     float: left;
-    width: 100%;
-    padding-top: 8px;
-	font-family: montserrat;
+    padding-right: 20px;
 }
 
-			
+	.img-responsive {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
 }
-	.Wrapper main .SectionNav {
-	position: sticky;
-	top: 0;
-	margin-top: 5px;
-	margin-left: 20px;
-	font-family: "Montserrat", sans-serif;
-	font-size: 12px;
-	color: #000000;
-	
+.Article01 {
+    background-color: black;
 }
-	
-	main .SectionNav .CurrentLink {
-
-	font-size: 14px;
-
-	color: #666669;
+.Article02 {
+    background-color: black;
 }
-	 .PrimaryNav .CurrentTop {
+.Article02 header {
+    background-image: url(../images/bg3.jpg);
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+}
+.MastHead {
+    font-size: 60px;
+    background-color: hsla(0,0%,0%,1.00);
+    width: 100px;
+    height: 100px;
+    color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.Timeline .PrimaryNav .CurrentTop {
 background-color: #BCE5FA;
 }
-.Wrapper main .SectionNav {
-	font-size: 14px; 
-	color: #666666;
-	
-}		.Wrapper .RelatedArticles .RelatedArt {
-	text-align: center;
-	font-family: "Montserrat", sans-serif;
-	font-size: 18px;
-	color: #565656;
-	display: block; 
-	margin-left: auto; margin-right: auto;
-background-color: white;
-	padding-top: 10px; padding-bottom: 10px;}
-	
-	.Wrapper main .body.illustration {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px
+.MagzineHome .PrimaryNav .CurrentTop {
+    background-color: #BCE5FA;
 }
-	.Myillustration2 {
-    margin-left: auto;
-    margin-right: auto;
-   
-    
-    height: 100%;
-   
+.SectionNavBar a {
+    text-decoration: none;
+    color: black;
 
-    text-align: center;
-    padding-bottom: 8px;
-    width: 100%;
+    padding-left: 10px;
 }
-.Myimageholder {
-    margin-left: auto;
-    margin-right: auto;
+.CurrentLink {
+    padding-left: 20px;
+    color: #69D1FC;
+	border-bottom: #69D1FC;
+}
+.SectionTitle {
+    display: inline;
+}
+.SocialMedia {
     display: block;
-    max-width: 40em;
+    padding-top: 10px;
+    padding-bottom: 11px;
 }
-.Story figcaption {
-    font-weight: 100;
-    font-size: 13px;
+
+.SectionNav .SectionTitle {
+    padding-left: 10px;
+    display: inherit;
+    width: 124px;
+    margin-left: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
     padding-bottom: 10px;
-	font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-	color: #808080;
+background-color: #192D57;
+    color: white;
+    margin-bottom: 10px;
+    font-family: montserrat;
 }
-			.Wrapper .RelatedArticles .RelatedArt {
+.MyFooter .Cal ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+    display: inherit;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-transform: capitalize;
+}
+.MyFooter {
+    padding-top: 19px;
+    height: 250px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.MyFooter ul li {
+    line-height: 10px;
+}
+.MyFooter .Cal h5 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+	footer .Cal{display: table-cell; width:33%;
+margin-left: auto; margin-right: auto; padding-left: 60px;}
+
+.MyFooter .Cal .links 
+	{ 
+		font-family: "Montserrat", sans-serif;
+						font-weight: 600;
+						color:#333333;
+						font-size: 13px;
+						padding-bottom: 10px;
+		padding-top: 10px;
+		line-height: 20px;
+}
+
+
+footer .Cal p {color: #333333;
+				font-size: 12px;
+				line-height: 0px;
+			}
+	h6 {
+		font-size: 12px;
+    font-weight: 100;
+	}
+				.Wrapper .RelatedArticles .RelatedArt {
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
@@ -277,194 +305,268 @@ img.relatedimage{
 	margin-left: auto; margin-right: auto;
 	padding-top:10px; padding-bottom: 10px;
 }
-.Wrapper main .body.illustration {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px
-}
-.Wrapper footer {
-    color: #333333;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-    text-align: center;
-}
-.img-responsive {
-    display: block !important;
-    max-width: 100% !important;
-    height: auto !important;
-}
-	.Wrapper .MyFooter {background-color: #FFFFF;
-		text-align: center;
-		width: 100%;
-		margin: 0px; padding-top: 30px; padding-bottom: 50px;
-		display: table;}
 
-footer .Cal{display: table-cell; width:33%;
-margin-left: auto; margin-right: auto; padding-left: 60px;}
-
-.MyFooter .Cal .links 
-	{ 
-		font-family: "Montserrat", sans-serif;
-						font-weight: 600;
-						color:#333333;
-						font-size: 13px;
-						padding-bottom: 10px;
-		padding-top: 10px;
-}
-
-
-footer .Cal p {color: #333333;
-				font-size: 12px;
-				line-height: 20px;
-			}
-
-@media (max-width:600px) {
-.Wrapper header h1 {
-    font-size: medium;
-}
-.Wrapper main h3 {
-    font-size: 20px;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-}
-.Wrapper main h4 {
-    font-size: 16px;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: -6px;
-    width: auto;
-}
-main .Story h5 {
-    font-size: 15px;
-    text-align: left;
-    margin-left: 20px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-}
-main .Story p {
-    font-size: 17px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto;
-}
-main .bottom p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 10px;
-    margin-left: 20px;
-    text-align: left;
-}
-.Wrapper main .author {
-    font-size: 12px;
-    text-align: left;
-    margin-left: 20px;
-}
-.Wrapper main .time {
-    font-size: 11px;
-    text-align: left;
-    margin-left: 20px;
-}
-.Wrapper main .quote {
-    font-size: 15px;
-    text-align: left;
-    margin-left: -80px;
-    width: 90%;
-    margin-bottom: 30px
-}
-.PrimaryNav ul {
-    width: 100%;
-    height: 50px;
+@media screen and (max-width:600px) {
+.Article02 header {
+    height: 600px;
+    background-color: white;
+    background-image: url(../images/bg3_s.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 118px;
+    background-size: contain;
 }
 .PrimaryNav ul li {
-    display: inline;
-    float: left;
-    width: 100%;
     text-align: center;
-    height: 50px;
-}
-.PrimaryNav ul li a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    color: hsla(0,0%,20%,1.00);
-    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: block;
     float: left;
-    height: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
     width: 100%;
 }
-.Wrapper main .body.illustration {
+.ArticleTitle {
+    padding-top: 200px;
+    display: block;
+    padding-bottom: 60px;
+}
+.Story h4 {
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+.RelatedAholder .Cal {
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 1px;
+}
+.RelatedAholder {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+}
+.MyFooter .Cal ul a {
+    color: white;
+    text-decoration: none;
+}
+.MyFooter {
+    width: 100%;
+    height: auto;
+}
+	
+box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: montserrat;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    max-width: 1200px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    position: relative;
+}
+main {
+    margin-top: 10px;
+    clear: both;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: " ";
+    position: absolute;
+    width: 6px;
+   background-color: #192D57;
+	border: #192D57;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px inset #4683A4;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #192D57;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #192D57 ;
+}
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #192D57;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #192D57 transparent transparent;
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: #192D57;
+    position: relative;
+    border-radius: 6px;
+}
+.content p img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+.content p {
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+}
+.content h2 {
+    color: white;
+}
+.Timeline header {
+    height: 110px;
+    background-color: white;
+}
+.Timeline main {
+    padding-bottom: 30px;
+}
+.Timeline .RelatedArticles {
+    background-color: white;
+}
+.Timeline .RelatedAholder .Cal {
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Timeline .Wrapper {
+background-color: white;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
 }
-.img-responsive {
-    display: block !important;
-    max-width: 100% !important;
-    height: auto !important;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+.timeline: after {
+    left: 31px;
+}
+/* Full-width containers */
+.container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    margin-top: 100px;
+    float: left;
+    clear: both;
+}
+/* Make sure that all arrows are pointing leftwards */
+.container: before {
+    left: 60px;
+    border: medium solid #C14D4D;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+.TimelineTitle {
+    color: hsla(0,0%,0%,1.00);
+	font-family: montserrat;
+}
+/* Make sure all circles are at the same spot */
+.left::after, .right::after {
+    left: 15px;
+}
+/* Make all right containers behave like the left ones */
+.right {
+    left: 0%;
+}
 }
 }
 </style>
-<body>
+<header><br>
+  <center>
+    <img src="../images/001Asset 20@4x.png" height="70px" div class="masthead" alt="">
+	</center>
+</header>
+<body class="Timeline">
 <div class="Wrapper">
-  <header> <br>
-    <img src="../images/001Asset 20@4x.png" height="70px" div class="masthead" alt=""> <br>
-    <br>
-    <p></p>
-  </header>
   <nav class="PrimaryNav">
     <ul>
-      <li><a href="project03home.html">Home</a></li>
-      <li><a href="project03story1.html">Top Stories</a></li>
-      <li><a href="infographic01.html">Infographics</a></li>
-      <li><a href="editorsletter.html" class="CurrentTop">About</a></li>
-    </ul></nav>
-	<img src="../images/editor.png" width="1920" height="" alt="" class="img-responsive" align="middle"/>
-
-<br>
+      <li> <a href="project03home.html">Home</a> </li>
+      <li> <a href="project03story1.html">Top Stories</a> </li>
+      <li> <a href="#" class="CurrentTop">Infographics</a> </li>
+      <li> <a href="editorsletter.html">About</a> </li>
+    </ul>
+  </nav>
+	<img src="../images/info 1.png" width="1920" height="" alt="" class="img-responsive" align="middle"/>
+	<hr>
 	<br>
-	<main>
-	<p></p>
-    <h3>Editor's Letter</h3>
-   		<h4>Footprint Magazine</h4><br>
-    <p></p><br>
-	
-  <center><img src="../images/Volunteer Photo - Melanie Danoviz.jpg" width="300" alt="" class="img-responsive" align="middle"/></center>
-   <br>
-	 
-    
-    
-    <h6 class="author"><strong>Melanie Danoviz</strong></h6>
-    <h6 class="time">November 12, 2020</h6><br><br>
-   
-    <hr>
-    <br>
-    <div class="Story"><br>
-      <p>Sustainability is slowly becoming more mainstream as people become more aware of how damaged our world has gotten from our deteriorating habits and actions. However, a lot of people would still rather keep their old habits because that is what they feel is simpler and more efficient. Thus, the purpose of this magazine is to prove to those who have been used to living with their non eco-friendly behaviors see how easy it is to change their ways and provide them a complete resource on the everyday things they can do, which will not only help them feel better about themselves, but also help the environment tremendously. As the Zero Waste Chef Anne-Marie Bonneau said, “We don’t need a handful of people doing zero waste perfectly. We need millions of people doing it imperfectly.”
-</p>
-     
-      <p>This magazine will be mostly focused on targeting young adults since their actions today will have the greatest impact tomorrow and define how long our world will last for the generations to come. It is very important that as they start settling down after graduating from college or buying their first house, that they build responsible and sustainable habits to maintain our Mother Earth in shape for as long as possible. So, for this case, the formats will be simple and straightforward enough, for not just the young adults to understand how to change their ways, but also even teenagers who are just recently becoming more aware of how the world functions around them. In addition, the magazine will include topics that could interest other types of age groups such as gardening for the elderly. But as mentioned before, the main target for this magazine are young adults carving the path to their own individual lives.
- </p>
-      <p>I believe this type of magazine is very important because it does not just help an individual gain more ideas on how to become more sustainable, but also because it can lead to a massive change. Even if only a single person is moved by this magazine, it will be sufficient enough to create some type of chain reaction as they communicate with loved ones about the easy behavioral changes they can implement into their lives that will help save the environment for not just for themselves alone, but also for the generations to come.
-</p>
-     <br><br>
+  <div class="SectionNav"> <span class="SectionTitle">
+    <h2>Infographics</h2></span> <span class="SectionNavBar">Timeline</span> |    <a href="infographic02.html">Infographic</a><span class="CurrentLink"></span> </div>
+  <main>
+    <div>
+      <h3 class="TimelineTitle">Carbon Footprint Factsheet</h3>
     </div>
-   <br><br> <hr>
-      
-
-    <br>
-    <br>
-  </main><br>
-	    <div class="RelatedArticles">
+    <div class="AuthorInfo"> <div class="author">University of Michigan </div> <div class="PublishTime">January 2017 </div> <br>
+		<br>
+      <br>
+	  
+	  
+    <div class="Story">
+		
+      <h4>Introduction</h4><br>
+      <div class="Intro">
+<p>The greenhouse effect is a natural phenomenon that insulates the Earth from the cold of space. As incoming solar radiation is absorbed and re-emitted back from the Earth’s surface as infrared energy, greenhouse gases (GHGs) in the atmosphere prevent some of this heat from escaping into space, instead reflecting the energy back to further warm the surface. Anthropogenic (human-caused) GHG emissions are modifying the Earth’s energy balance between incoming solar radiation and the heat released back into space, amplifying the greenhouse effect and resulting in climate change.</p>
+		</div></div></div>
+     
+  </main>
+ <div class="RelatedArticles"><br>
 	<h5 class="RelatedArt">Related Articles</h5>
 	  <div class="RelatedAholder">
 			<div class="Col">
@@ -477,19 +579,19 @@ main .bottom p {
 				<h6 class="article"><a href="project03story3.html">Positive Climate News</a></h6>
                 <a href="project03story3.html"><img class="relatedimage" src="../images/01 story 3.png" alt="" ></a>
 				<p class="articleprev">Here’s something to smile about; literally. Oral-care brand Colgate has announced that it is launching what it says is a vegan-certified toothpaste...</p>
-			<br> <br>
+			
 		  </div>
 		</div>
 			
 		
 </div>
-	<br>
+
 	<br><hr>
 	<br>
 	<br>
-  <footer class="MyFooter">
+  <center><footer class="MyFooter">
 	  <div class="Cal">
-		<h5 class="links"> Top Stories </h5> 
+		<h5 class="links"> Top Stories </h5> <br>
 			<p><a href="project03.html">Home</a></p>
 		<p><a href="project03story1.html">Article # 1</a></p>
 		<p><a href="project03story2.html">Article # 2</a></p>
@@ -499,19 +601,19 @@ main .bottom p {
 	<div class="Cal">
 		<img src="../images/001Asset 20@4x.png" height="20" alt=""/>
 <h5 class="links">Ⓒ 2020 Footprint Magazine </h5>
-		<p>Footprint Magazine focuses on bringing awareness to the importance of sustainability not just for the sake of the planet, but also the health of each individual.</p>
+		<div class="h8"><h6>Footprint Magazine focuses on bringing awareness to the importance of sustainability not just for the sake of the planet, but also the health of each individual.</h6></div>
 	</div>
 		
 	<div class="Cal">
-		<h5 class="links"> Links </h5> 
+		<h5 class="links"> Links </h5> <br>
 			<p><a href="project03.html">Home</a></p>
 		<p><a href="#">Top Stories</a></p>
 		<p><a href="#">Infographic</a></p>
-		<p><a href="#">About</a></p>
+		<p><a href="editorsletter.html">About</a></p>
 	</div>
 		
 	
-	</footer>
+	</footer></center>
 </div>
 </body>
 </html>
