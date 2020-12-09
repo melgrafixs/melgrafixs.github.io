@@ -1,0 +1,247 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Project 04 | 483F | Fall 2020</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style type="text/css">
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Wrapper {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(0,0%,90%,1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+body {
+    color: hsla(0,0%,20%,1.00);
+    background-color: hsla(0,0%,60%,1.00);
+}
+h1 {
+    height: 200px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+}
+.headingline1 {
+    padding-top: 11px;
+    display: inherit;
+    padding-bottom: 20px;
+}
+h3  {
+    font-size: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Side p {
+    padding-bottom: 20px;
+    font-size: 11px;
+    color: hsla(0,0%,40%,1.00);
+    line-height: 18px;
+}
+h2 {
+    height: 100px;
+    font-size: 60px;
+    color: hsla(305,54%,65%,1.00);
+}
+.Intro {
+    max-width: 42em;
+    line-height: 26px;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.Behanceurl {
+    padding-bottom: 40px;
+}
+main ol li {
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+main ol li ul {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer {
+    height: 300px;
+    background-color:hsla(305,54%,65%,1.00);
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 10pt;
+}
+.Behanceurl a {
+    text-decoration: none;
+    background-color: hsla(305,54%,65%,1.00);
+    color: hsla(0,0%,92%,1.00);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.Behanceurl a:hover {
+    background-color: hsla(137,73%,80%,1.00);
+    color: hsla(0,0%,20%,1.00);
+}
+.Titleline {
+    color: hsla(305,54%,65%,1.00);
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-right: 20px;
+}
+.Wrapper .Topnav a {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    font-weight: 300;
+	color: hsla(305,54%,65%,1.00);
+}
+.Topnav a:visited {
+    color: hsla(0,0%,40%,1.00);
+}
+.Topnav .CurrentLink {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.project {
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: hsla(305,54%,65%,1.00);
+    border-bottom: thin dotted hsla(305,54%,65%,1.00);
+    display: block;
+}
+p {
+    font-size: 16px;
+}
+footer p {
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+main {
+    flex: 70%;
+    background-color: hsla(0,0%,100%,1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    margin-right: 20px;
+}
+.Side a {
+    text-decoration: none;
+    color: hsla(305,54%,65%,1.00);
+}
+
+.Side {
+    flex: 25%;
+    background-color: hsla(0,0%,100%,1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: hsla(0,0%,40%,1.00);
+}
+.Flex_container {
+    display: flex;
+	flex-wrap: wrap;
+}
+.Side img {
+    width: 100%;
+    height: auto;
+}
+.Side h4 {
+    font-size: 16px;
+    color: hsla(0,0%,40%,1.00);
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+@media (max-width:800px){
+main, .Wrapper .side {
+    flex: 100%;
+    float: left;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="Wrapper">
+	<div class="Topnav"><span class="Titleline">483F Projects</span> <a href="../483F project 01/483Fproject01.html">01</a> | <a href="../483F project 02/483F_project02.html">02</a> | <a href="../483F project 03/483Fproject03.html">03</a> | <span class="CurrentLink">04</span></div>
+<h1><span class="project">Project 04</span><br> 
+  <span class="headingline1">Creating a Behance Portfolio</span> </h1>
+<h2>The Process</h2>
+<p class="Intro">Behance is an online platform built to help creatives showcase and discover the world’s best work. With deep integration into Adobe’s desktop and mobile apps, Behance enables members to quickly share their work and collaborate with team members at the click of a button. This lesson will help familiarize you with Behance and the different ways you can use the platform.</p>
+<div class="Behanceurl"><a href="https://www.behance.net/melaniedanoviz" target="_blank">My Behance site URL</a></div>
+<div class="Flex_container">
+<main>
+<h3>Requirements</h3>
+<ol>
+  <li>Create a Behance Account</li>
+  <li>All Profile Information is Complete&nbsp;</li>
+  <li>Search and Explore: Appreciate and Follow 5 Peoples Projects&nbsp;</li>
+  <li>Discover: Follow 2 Schools </li>
+<li>Add at least (4) of your best Portfolio cases.  Be sure to include:
+  <ul>
+	 <li>Name Your Project</li>
+		<li>Description of Project</li>
+		<li>At least 5 tags (keywords)</li>
+		<li>Creative Fields</li>
+		<li>Tools (Software used)</li>
+		<li>License</li>
+		<li>Show design process steps</li>
+  </ul>
+  </li>
+</ol>
+	</main>
+	
+	</div>
+<footer>
+<p>&copy;Melanie Danoviz Design @2020</p>
+<p>
+  <!-- #BeginDate format:fcAm1 -->Wednesday, December 9, 2020<!-- #EndDate -->
+</p>
+	
+</footer>
+</div>
+</body>
+</html>
